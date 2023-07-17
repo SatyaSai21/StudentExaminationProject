@@ -110,7 +110,7 @@ class ModelTrainer:
 
             r2_square = r2_score(y_test, predicted)
             return r2_square
-         # 0.881401013978887
+         # 0.881401013978887 ----> r2 score.
           
         except Exception as e:
             raise CustomException(e,sys)
